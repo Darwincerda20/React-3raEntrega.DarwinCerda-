@@ -7,6 +7,7 @@ import { ItemListContainer } from "./Components/ItemListContainer"; /* TRAIGO EL
 import { CartWidget } from "./Components/CartWidget"; /* TRAIGO EL CARRITO */
 import  ItemDetailContainer  from "./Components/ItemDetailContainer";
 import data from "./Data"
+import Item from "./Components/Item";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <FontAwesomeIcon icon={faShoppingCart} />
         <Routes>
           <Route path="/" element={<ItemListContainer/>}/>{/* home */}
+          <Route path="/" element={<Item/>}/>{/* home */}
           <Route path="/category/:categoryId" element={ <ItemListContainer/> }/>
           <Route path="/item/:itemid" element={<ItemDetailContainer/>}/>
           <Route path="*" element={<h3>404 NOT FOUND</h3>} />
