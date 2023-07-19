@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/******************************** Estilos para el Navbar *********************************/
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.notificacion {
+  background-color: rgb(179, 255, 0);
+  color: #020202;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  margin-right: 10px;
+}
+
+
+/********************************** Estilos para las tarjetas **********************************/
+.CardItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardContainer {
+  display: flex;
+}
+
+.Card {
+  width: 18rem;
+  margin-right: 10px;
+}
