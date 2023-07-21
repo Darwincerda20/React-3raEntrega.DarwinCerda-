@@ -9,12 +9,14 @@ const Footer = () => (
    <div className="container text-white">
       <div className="row">
           <div className="col-lg-3 col-md-6">
+            <br />
             <h5>Información de contacto</h5>
             <p className="mb-0">Dirección: 123 Calle Principal, Ciudad</p>
             <p className="mb-0">Teléfono: (555) 555-5555</p>
             <p>Correo electrónico: Darwin.cerda@gmail.com</p>
           </div>
           <div className="col-lg-3 col-md-6">
+            <br />
             <h5>Enlaces útiles</h5>
             <ul className="list-unstyled">
               <li><a className="text-white text-decoration-none" href="./Pages/Nosotros.html">Acerca de nosotros</a></li>
@@ -23,6 +25,7 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-lg-3 col-md-6">
+            <br />
             <h5>Redes sociales</h5>
             <ul className="list-unstyled">
               <li><a  className="text-white text-decoration-none " href="#"><i className="fab fa-facebook"></i> Facebook</a></li>
@@ -31,6 +34,7 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-lg-3 col-md-6">
+            <br />
             <h5>Suscríbete a nuestro boletín</h5>
             <p className="mb-0">Recibe noticias y ofertas especiales en tu correo electrónico.</p>
             <form>

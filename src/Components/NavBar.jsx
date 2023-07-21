@@ -27,7 +27,7 @@ export const NavBar = () => (
             <NavLink to={'Category/Accesorios'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'} >Accesorios</NavLink>
             </li>
             <li className="nav-item m-2">
-            <NavLink to={'Category/Componentes'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Componentes</NavLink>
+            <NavLink to={'Category/Componentes'} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Componentes</NavLink>
             </li>
             <li className="nav-item m-2">
             <NavLink to={'Category/Ropa'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Ropa</NavLink>

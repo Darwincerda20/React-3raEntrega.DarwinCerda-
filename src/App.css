@@ -86,7 +86,7 @@ img {
 /* Estilos para cada tarjeta */
 .Card {
   margin: 10px; /* Margen entre las tarjetas */
-  border: 1px solid #ddd; /* Borde para mayor claridad */
+  background-color: white;
   padding: 15px; /* Relleno para dar espacio a los contenidos internos */
   box-sizing: border-box; /* Incluir el borde y relleno en el tamaño total */
   text-align: center; /* Centrar el contenido horizontalmente */
