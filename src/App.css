@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .App {
   text-align: center;
 }
@@ -76,11 +75,16 @@ img {
   margin-right: 10px;
 }
 
-
 /********************************** Estilos para las tarjetas **********************************/
+/* Estilos para la fila */
+.CardItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos para cada tarjeta */
 .Card {
-  flex: 0 0 calc(33.33% - 20px); /* Tamaño con margen para los productos */
-  max-width: calc(33.33% - 20px);
   margin: 10px; /* Margen entre las tarjetas */
   border: 1px solid #ddd; /* Borde para mayor claridad */
   padding: 15px; /* Relleno para dar espacio a los contenidos internos */
@@ -90,12 +94,8 @@ img {
 
 .ItemImg {
   width: 100%; /* Asegura que todas las imágenes tengan el mismo ancho */
-  height: auto; /* Mantiene la proporción de aspecto */
+  height: 200px; /* Mantiene la proporción de aspecto */
   margin-bottom: 10px; /* Espacio entre la imagen y el contenido de la tarjeta */
-}
-
-.ItemHeader {
-  margin: 0;
 }
 
 .card-text {

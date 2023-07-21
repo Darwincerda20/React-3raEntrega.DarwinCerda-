@@ -1,4 +1,6 @@
+import "../App.css";
 import Item from './Item'
+
 
 const ItemList = ({products}) => {
     return(

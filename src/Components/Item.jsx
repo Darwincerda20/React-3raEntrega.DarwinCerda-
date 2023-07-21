@@ -7,7 +7,7 @@ const Item = ({id, nombre, categoria, ImagenURL, precio, stock, Descripcion}) =>
         <div className="CardItem">
             <div className="row">
                 <div className="col ">
-                    <div className="CardContainer">
+                    <div className="CardContainer small ">
                         <div className="Card" style={{width: "18rem"}}>
                             <img src={ImagenURL} className="ItemImg card-img-top" alt={nombre}></img>
                             <div className="card-body">
@@ -15,7 +15,6 @@ const Item = ({id, nombre, categoria, ImagenURL, precio, stock, Descripcion}) =>
                             <p className="Info card-text">Detalle: {Descripcion}.</p>
                             <p className="info card-text">Precio: ${precio}.-</p>
                             <p className="info card-text">Stock: {stock} un.-</p>
-                            <button className="Option btn btn-primary" href="#">Ver Más</button>
                             <footer className="ItemFooter">
                                 <ItemCount initial={1} stock={stock} onAdd={(quantity) => console.log("Cantidad Agregada")} />
                             </footer>

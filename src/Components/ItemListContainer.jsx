@@ -23,7 +23,9 @@ export const ItemListContainer = ({greeting}) =>{
   },[categoryId])
       
   return (
-        <div style={{ backgroundColor: 'orange', padding: '20px' }}>
+        <div style={{ backgroundColor: 'orange' , padding: '20px' }}>
+          <br />
+          <br />
           <br />
           <br />
           <h2 style={{position:"relative", left:"250px"}}>Bienvenidos a nuestro servicio de mantenimiento de bicicletas</h2>
