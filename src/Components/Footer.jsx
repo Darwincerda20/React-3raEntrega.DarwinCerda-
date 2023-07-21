@@ -5,7 +5,7 @@ import { NavLink, Link } from 'react-router-dom'
 /*****************************FOOTER *********************************/
 
 const Footer = () => (
-<footer className="footer small bg-dark">
+<footer className=" footer small bg-dark">
    <div className="container text-white">
       <div className="row">
           <div className="col-lg-3 col-md-6">
@@ -41,8 +41,9 @@ const Footer = () => (
             </form>
           </div>
       </div>
+      <p className="text-white text-center p-3">© 2023 Mantenciones MTB DC. Todos los derechos reservados | Creado por DarwinCerda</p>
     </div>
-        <p className="text-white text-center p-3">© 2023 Mantenciones MTB DC. Todos los derechos reservados | Creado por DarwinCerda</p>
+        
 </footer>
 )
         
